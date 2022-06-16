@@ -9,7 +9,7 @@ body{
   height: 100px;
   overflow: hidden;
   width: 100%;
-  background: #EEECEB;
+  background:white;
 }
 
 html{
@@ -19,7 +19,7 @@ html{
 
 footer{
   position: fixed;
-  background: beige;
+  background: #fafafa;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -33,7 +33,7 @@ footer::before{
  
   height: 1px;
   width: 100%;
-  background: #AFAFB6;
+  background: #fafafa;
 }
 
 
@@ -50,10 +50,10 @@ footer .content .top{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: -5px;
+  margin-bottom: -45px;
 }
 .content .top .logo-details{
-  color: black;
+  color: orangered;
   font-size: 30px;
 }
 
@@ -74,7 +74,7 @@ footer .content .link-boxes .box{
   bottom: -2px;
   height: 0px;
   width: 35px;
-  background: beige;
+  background:#fafafa;
 }
 .content .link-boxes .box li{
   margin: 6px 0;
@@ -100,7 +100,7 @@ footer .content .link-boxes .box{
   width: calc(100% + 55px);
   outline: none;
   border: 2px solid #AFAFB6;
-  background: beige;
+  background: #fafafa;
   border-radius: 4px;
   padding: 0 15px;
   font-size: 15px;
@@ -110,12 +110,14 @@ footer .content .link-boxes .box{
 
 
 .content .media-icons{
-  display: flex;
+  display:flex;
+  
+  flex-wrap:wrap;
 }
 .content  .media-icons a{
   height: 40px;
-  width: 60px;
-  margin: 0 1px;
+  width: 50px;
+  margin:  6px ;
   border-radius: 70%;
   text-align: center;
   line-height: 40px;
@@ -147,26 +149,24 @@ footer .content .link-boxes .box{
   color: gray;
   background: black;
 }
- .media-icons a:nth-child(4){
-  background:gray;
-}
- .media-icons a:nth-child(4):hover{
-  color: gray;
-  background: black;
-}
- .media-icons a:nth-child(5){
-  background:gray;
-}
+ 
+
+
  .media-icons a:nth-child(5):hover{
+  color:gray;
+  background:whitesmoke;
+}
+
+ .media-icons a:nth-child(6):hover{
   color: gray;
-  background:black;
+  background:whitesmoke;
 }
 
 
 
 footer .bottom-details{
   width: 100%;
-  background: beige;
+  background:#fafafa;
 }
 footer .bottom-details .bottom_text{
   max-width: 1250px;
@@ -224,10 +224,27 @@ footer .bottom-details .bottom_text{
 
 .popular{
   font-size: 12px;
-  text-align: center;
+  
   
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
